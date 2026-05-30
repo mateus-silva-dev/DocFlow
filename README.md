@@ -198,11 +198,11 @@ In this mode, you just need to enter the annotation. Docflow automatically gener
 ```java
 @RestController
 @RequestMapping("/users")
-@ApiDocController <- DocFlow Annotations
+@ApiDocController // <- DocFlow Annotations
 public class UserController {
 
     @PostMapping
-    @ApiDocPost <- DocFlow Annotations
+    @ApiDocPost // <- DocFlow Annotations
     public ResponseEntity<UserResponse> createNewUser(@RequestBody UserCreateDTO request) {
         return ResponseEntity.status(HttpStatus.CREATED).body(service.create(request));
     }
@@ -213,7 +213,7 @@ public class UserController {
 <td valign="top" width="50%">
 
 #### Result:
-<img src="docs/img/swagger-automatic-result.png" width="400" />
+<img src="docs/img/swagger-automatic-result.png" width="100%" />
 
 </td>
 </tr>
@@ -222,9 +222,9 @@ public class UserController {
 ### 2. Manual Mode
 If you need more details or a customized description, you can enter the information directly in the note.
 
-<table width="100%">
+<table width="50%">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="100%">
 
 #### Code:
 ```java
@@ -251,7 +251,7 @@ public class UserController {
 <td valign="top" width="50%">
 
 #### Result:
-<img src="docs/img/swagger-manual-result.png" width="400" />
+<img src="docs/img/swagger-manual-result.png" width="100%" />
 
 </td>
 </tr>
@@ -291,7 +291,7 @@ Just turn on security in your `application.yml/.properties`. The library nativel
 
 <table width="100%">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="100%">
 
 #### configuration .yml:
 ```yml
@@ -320,7 +320,7 @@ public User create() { ... }
 ```
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="100%">
 
 #### Result:
 <img src="docs/img/swagger-with-security-active.png" width="100%" />
@@ -336,7 +336,7 @@ public User create() { ... }
 
 <table width="100%">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="100%">
 
 #### configuration .yml:
 ```yml
@@ -365,7 +365,7 @@ public User create() { ... }
 ```
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="100%">
 
 #### Result:
 <img src="docs/img/swagger-with-security-deactivated.png" width="100%" />
