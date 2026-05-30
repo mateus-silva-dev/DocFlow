@@ -98,7 +98,7 @@ Add the **DocFlow** starter to your project configuration:
 
 <table width="100%">
 <tr>
-<td valign="top" width="40%">
+<td valign="top" width="100%">
 
 #### Maven
 ```xml
@@ -108,9 +108,6 @@ Add the **DocFlow** starter to your project configuration:
     <version>1.0.0</version>
 </dependency>
 ```
-
-</td>
-<td valign="top" width="40%">
 
 #### Gradle
 ```groovy
@@ -141,7 +138,7 @@ preferred format below:
 
 <table width="100%">
 <tr>
-<td valign="top" width="30%">
+<td valign="top" width="100%">
 
 ### Option A: Using `application.yml`
 ```yaml
@@ -159,9 +156,6 @@ docflow:
   version: "1.0.0"
   default-error-schema: com.yourcompany.yourproject.exception.StandardError # Path to your global error DTO
 ```
-
-</td>
-<td valign="top" width="30%">
 
 ### Option B: Using `application.properties`
 ```properties
@@ -192,7 +186,7 @@ In this mode, you just need to enter the annotation. Docflow automatically gener
 
 <table width="100%">
 <tr>
-<td valign="top" width="30%">
+<td valign="top" width="100%">
 
 #### Code:
 ```java
@@ -209,11 +203,8 @@ public class UserController {
 }
 ```
 
-</td>
-<td valign="top" width="400">
-
 #### Result:
-<img src="docs/img/swagger-automatic-result.png" width="100%" />
+<img src="docs/img/swagger-automatic-result.png" width="50%" />
 
 </td>
 </tr>
@@ -222,9 +213,9 @@ public class UserController {
 ### 2. Manual Mode
 If you need more details or a customized description, you can enter the information directly in the note.
 
-<table width="50%">
+<table width="100%">
 <tr>
-<td valign="top" width="30%">
+<td valign="top" width="100%">
 
 #### Code:
 ```java
@@ -247,11 +238,8 @@ public class UserController {
 }
 ```
 
-</td>
-<td valign="top" width="400">
-
 #### Result:
-<img src="docs/img/swagger-manual-result.png" width="100%" />
+<img src="docs/img/swagger-manual-result.png" width="50%" />
 
 </td>
 </tr>
@@ -291,7 +279,7 @@ Just turn on security in your `application.yml/.properties`. The library nativel
 
 <table width="100%">
 <tr>
-<td valign="top" width="30%">
+<td valign="top" width="100%">
 
 #### configuration .yml:
 ```yml
@@ -319,14 +307,11 @@ public List<User> list() { ... }
 public User create() { ... }
 ```
 
-</td>
-<td valign="top" width="400">
-
 #### Result:
-<img src="docs/img/swagger-with-security-active.png" width="100%" />
+<img src="docs/img/swagger-with-security-active.png" width="50%" />
 
 #### scheme-name:
-<img src="docs/img/security.png" width="100%" />
+<img src="docs/img/security.png" width="50%" />
 
 </td>
 </tr>
@@ -364,11 +349,8 @@ public List<User> list() { ... }
 public User create() { ... }
 ```
 
-</td>
-<td valign="top" width="400">
-
 #### Result:
-<img src="docs/img/swagger-with-security-deactivated.png" width="100%" />
+<img src="docs/img/swagger-with-security-deactivated.png" width="50%" />
 
 </td>
 </tr>
