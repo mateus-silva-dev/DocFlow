@@ -1,0 +1,14 @@
+# Changelog
+
+## 1.0.0
+
+### Added
+- ApiDoc annotations
+- Automatic summary generation
+- Automatic description generation
+- YAML configuration
+- i18n support
+- Automatic 200/201/204 detection
+- SpringDoc compatibility
+- Smart Security inference
+- Zero-Config JWT Auth

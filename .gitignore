@@ -1,0 +1,23 @@
+# 1. MAVEN
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# 2. IDE - INTELLIJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# 3. System
+.DS_Store
+Thumbs.db
+*.log
+
+
+test/
