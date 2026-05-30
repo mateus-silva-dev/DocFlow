@@ -98,7 +98,7 @@ Add the **DocFlow** starter to your project configuration:
 
 <table width="100%">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="40%">
 
 #### Maven
 ```xml
@@ -110,7 +110,7 @@ Add the **DocFlow** starter to your project configuration:
 ```
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="40%">
 
 #### Gradle
 ```groovy
@@ -141,7 +141,7 @@ preferred format below:
 
 <table width="100%">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="30%">
 
 ### Option A: Using `application.yml`
 ```yaml
@@ -161,7 +161,7 @@ docflow:
 ```
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="30%">
 
 ### Option B: Using `application.properties`
 ```properties
@@ -192,7 +192,7 @@ In this mode, you just need to enter the annotation. Docflow automatically gener
 
 <table width="100%">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="30%">
 
 #### Code:
 ```java
@@ -210,7 +210,7 @@ public class UserController {
 ```
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="400">
 
 #### Result:
 <img src="docs/img/swagger-automatic-result.png" width="100%" />
@@ -224,7 +224,7 @@ If you need more details or a customized description, you can enter the informat
 
 <table width="50%">
 <tr>
-<td valign="top" width="100%">
+<td valign="top" width="30%">
 
 #### Code:
 ```java
@@ -248,7 +248,7 @@ public class UserController {
 ```
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="400">
 
 #### Result:
 <img src="docs/img/swagger-manual-result.png" width="100%" />
@@ -291,7 +291,7 @@ Just turn on security in your `application.yml/.properties`. The library nativel
 
 <table width="100%">
 <tr>
-<td valign="top" width="100%">
+<td valign="top" width="30%">
 
 #### configuration .yml:
 ```yml
@@ -320,7 +320,7 @@ public User create() { ... }
 ```
 
 </td>
-<td valign="top" width="100%">
+<td valign="top" width="400">
 
 #### Result:
 <img src="docs/img/swagger-with-security-active.png" width="100%" />
@@ -336,7 +336,7 @@ public User create() { ... }
 
 <table width="100%">
 <tr>
-<td valign="top" width="100%">
+<td valign="top" width="30%">
 
 #### configuration .yml:
 ```yml
@@ -365,7 +365,7 @@ public User create() { ... }
 ```
 
 </td>
-<td valign="top" width="100%">
+<td valign="top" width="400">
 
 #### Result:
 <img src="docs/img/swagger-with-security-deactivated.png" width="100%" />
@@ -386,21 +386,21 @@ By default, if a language is not specified or supported, it fallbacks to **Engli
 
 <table width="100%">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="30%">
 
 | Language | Flag | Status | Preview                                                                    |
 | :--- | :---: | :---: |:---------------------------------------------------------------------------|
-| **English** | <img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="48" /> | Default | <img src="docs/img/swagger-en.png" width="400" alt="English Preview" />    |
-| **Portuguese** | <img src="https://hatscripts.github.io/circle-flags/flags/br.svg" width="48" /> | Supported | <img src="docs/img/swagger-pt.png" width="400" alt="Portuguese Preview" /> |
-| **Spanish** | <img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="48" /> | Supported | <img src="docs/img/swagger-es.png" width="400" alt="Spanish Preview" />    |
+| **English** | <img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="48" /> | Default | <img src="docs/img/swagger-en.png" width="300" alt="English Preview" />    |
+| **Portuguese** | <img src="https://hatscripts.github.io/circle-flags/flags/br.svg" width="48" /> | Supported | <img src="docs/img/swagger-pt.png" width="300" alt="Portuguese Preview" /> |
+| **Spanish** | <img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="48" /> | Supported | <img src="docs/img/swagger-es.png" width="300" alt="Spanish Preview" />    |
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="30%">
 
-| Language | Flag | Status | Preview |
-| :--- | :---: | :---: | :--- |
-| **French** | <img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="48" /> | Supported | <img src="docs/img/swagger-fr.png" width="400" alt="French Preview" /> |
-| **German** | <img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="48" /> | Supported | <img src="docs/img/swagger-de.png" width="400" alt="German Preview" /> |
-| **Chinese** | <img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" width="48" /> | Supported | <img src="docs/img/swagger-cn.png" width="400" alt="Chinese Preview" /> |
+| Language | Flag | Status | Preview                                                                 |
+| :--- | :---: | :---: |:------------------------------------------------------------------------|
+| **French** | <img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="48" /> | Supported | <img src="docs/img/swagger-fr.png" width="300" alt="French Preview" />  |
+| **German** | <img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="48" /> | Supported | <img src="docs/img/swagger-de.png" width="300" alt="German Preview" />  |
+| **Chinese** | <img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" width="48" /> | Supported | <img src="docs/img/swagger-cn.png" width="300" alt="Chinese Preview" /> |
 
 </td>
 </tr>
