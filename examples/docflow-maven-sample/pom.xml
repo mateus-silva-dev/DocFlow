@@ -37,7 +37,7 @@
 
         <!-- LIB DOCFLOW -->
         <dependency>
-            <groupId>io.github.docflowlib</groupId>
+            <groupId>io.github.docflow-lib</groupId>
             <artifactId>docflow-spring-boot-starter</artifactId>
             <version>1.0.0</version>
         </dependency>

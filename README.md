@@ -126,7 +126,7 @@ Add the **DocFlow** starter to your project configuration:
 #### Maven
 ```xml
 <dependency>
-    <groupId>com.github.docflowlib</groupId>
+    <groupId>io.github.docflow-lib</groupId>
     <artifactId>docflow-spring-boot-starter</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -134,7 +134,7 @@ Add the **DocFlow** starter to your project configuration:
 
 #### Gradle
 ```groovy
-implementation 'com.github.docflowlib:docflow-spring-boot-starter:1.0.0'
+implementation 'io.github.docflow-lib:docflow-spring-boot-starter:1.0.0'
 ```
 
 </td>
