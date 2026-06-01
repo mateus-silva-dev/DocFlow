@@ -16,13 +16,36 @@
 
 ---
 
+## 📚 Table of Contents
+
+- [🔧 Compatibility](#-compatibility)
+- [🚀 Introduction](#-introduction)
+- [💡 Why DocFlow?](#-why-docflow)
+- [💥 Problem & 🌱 The Solution](#-problem--the-solution)
+- [🎯 Features](#-features)
+- [🛠️ Installation](#️-installation)
+- [🚀 Sample Projects](#-sample-projects)
+- [⚡ Quick Start](#-quick-start)
+- [🏷️ Annotations & Supported HTTP Status Codes](#️-annotations--supported-http-status-codes)
+- [🔒 Smart Security (JWT Authentication)](#-smart-security-smart-jwt-authentication)
+- [🌐 Internationalization (i18n)](#-internationalization-i18n)
+- [🗺️ Roadmap](#️-roadmap)
+- [📜 License](#-license)
+- [⭐ Support](#-support)
+- [✍️ Author](#️-author)
+
+---
+
 ## 🔧 Compatibility
 
 | Component | Supported Version |
 | :--- |:------------------|
 | **Java** | `17+`             |
-| **Spring Boot** | `3.x`             |
-| **SpringDoc OpenAPI** | `2.8.X`           |
+| **Spring Boot** | `3.4.0+`          |
+
+> ✅ Tested on Spring Boot 3.4.x, 3.5.x and 4.0.0.
+>
+> ❌ Versions prior to Spring Boot 3.4.0 are not supported.
 
 ---
 
@@ -175,6 +198,26 @@ docflow.default-error-schema=com.yourcompany.yourproject.exception.StandardError
 </td>
 </tr>
 </table>
+
+---
+
+## 🚀 Sample Projects
+
+To help you get started quickly, we provide complete, functional, and verified sample applications for both build tools. You can explore the source code to see DocFlow in action:
+
+| Build Tool | Project Link | Key Features Demonstrated |
+| :--- | :--- | :--- |
+| **Maven** 🛠️ | [docflow-maven-sample](examples/docflow-maven-sample) | Spring Boot 3.4.0+, Spring Security, Automated Swagger OpenAPI generation |
+| **Gradle** 🐘 | [docflow-gradle-sample](examples/docflow-gradle-sample) | Multi-platform build integration, Zero-Config documentation routing |
+
+### How to run the samples:
+1. Clone this repository.
+2. Navigate to the desired sample folder (`examples/docflow-maven-sample` or `examples/docflow-gradle-sample`).
+3. Run the application:
+    * For Maven: `mvn spring-boot:run`
+    * For Gradle: `./gradlew bootRun`
+4. Access the interactive documentation at: [Click here](http://localhost:8080/swagger-ui.html) or [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
 
 ---
 
@@ -378,11 +421,11 @@ By default, if a language is not specified or supported, it fallbacks to **Engli
 </td>
 <td valign="top" width="30%">
 
-| Language | Flag | Status | Preview                                                                 |
-| :--- | :---: | :---: |:------------------------------------------------------------------------|
-| **French** | <img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="48" /> | Supported | <img src="docs/img/swagger-fr.png" width="300" alt="French Preview" />  |
-| **German** | <img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="48" /> | Supported | <img src="docs/img/swagger-de.png" width="300" alt="German Preview" />  |
-| **Chinese** | <img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" width="48" /> | Supported | <img src="docs/img/swagger-cn.png" width="300" alt="Chinese Preview" /> |
+| Language                 | Flag | Status | Preview                                                                 |
+|:-------------------------| :---: | :---: |:------------------------------------------------------------------------|
+| **French**               | <img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="48" /> | Supported | <img src="docs/img/swagger-fr.png" width="300" alt="French Preview" />  |
+| **German**               | <img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="48" /> | Supported | <img src="docs/img/swagger-de.png" width="300" alt="German Preview" />  |
+| **Chinese (Simplified)** | <img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" width="48" /> | Supported | <img src="docs/img/swagger-cn.png" width="300" alt="Chinese Preview" /> |
 
 </td>
 </tr>
@@ -444,6 +487,8 @@ No extra configuration is required. DocFlow automatically detects the `Accept-La
 | Configurable default error schema | ✅ |
 | Automatic browser locale detection | ✅ |
 | Support: EN, PT, ES, FR, DE, CN | ✅ |
+| Maven example project | ✅ |
+| Gradle example project | ✅ |
 
 </td>
 </tr>
@@ -463,8 +508,6 @@ No extra configuration is required. DocFlow automatically detects the `Accept-La
 | Feature / Task | Status |
 | :--- | :---: |
 | Improved README documentation | ⏳ |
-| Maven example project | ⏳ |
-| Gradle example project | ⏳ |
 | More customization examples | ⏳ |
 
 </td>

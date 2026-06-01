@@ -7,6 +7,13 @@ target/
 *.zip
 *.tar.gz
 
+# 2. GRADLE
+.gradle
+build/
+gradlew
+gradlew.bat
+gradle/
+
 # 2. IDE - INTELLIJ
 .idea/
 *.iml
