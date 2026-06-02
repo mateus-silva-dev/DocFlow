@@ -2,13 +2,14 @@
     <p></p>
     <p align="center">
         <img height="25" src="https://img.shields.io/badge/Java-17+-ED8B00?logo=openjdk&logoColor=white" />
-        <img height="25" src="https://img.shields.io/badge/Spring%20Boot-3.5-6DB33F?logo=springboot&logoColor=white" />
+        <img height="25" src="https://img.shields.io/badge/Spring%20Boot-3.4.0+-6DB33F?logo=springboot&logoColor=white" />
         <img height="25" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-        <img height="25" src="https://img.shields.io/badge/Maven-Central-C71A36?logo=apachemaven&logoColor=white" />
     </p>
     <p align="center">
         <img src="https://img.shields.io/badge/VERSION%20-1.0.0-green?style=for-the-badge&logo=version&logoColor=white" />
-        <img src="https://img.shields.io/badge/STATUS_LIB%20-in the process of being published-red?style=for-the-badge&logo=version&logoColor=white" />
+         <a href="https://central.sonatype.com/artifact/io.github.docflow-lib/docflow-spring-boot-starter">
+         <img height="25" src="https://img.shields.io/maven-central/v/io.github.docflow-lib/docflow-spring-boot-starter?logo=apachemaven&label=Maven%20Central" /></a>
+        <img src="https://img.shields.io/badge/STATUS_LIB%20-PUBLISHED-green?style=for-the-badge&logo=version&logoColor=white" />
     </p>
 
 <p align="center">🧠 A smart, automated way to document your Spring Boot APIs.
