@@ -4,7 +4,9 @@
     <img height="25" src="https://img.shields.io/badge/Java-17+-ED8B00?logo=openjdk&logoColor=white" />
     <img height="25" src="https://img.shields.io/badge/Spring%20Boot-3.4.0+-6DB33F?logo=springboot&logoColor=white" />
     <img height="25" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <a href="https://central.sonatype.com/artifact/io.github.docflow-lib/docflow-spring-boot-starter">
     <img height="25" src="https://img.shields.io/maven-central/v/io.github.docflow-lib/docflow-spring-boot-starter?logo=apachemaven&label=Maven%20Central" />
+      </a>
    </p>
 
 [//]: # (    <p align="center">)
