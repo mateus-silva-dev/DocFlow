@@ -2,17 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
-## - 2026-06-01
+The format is based on Keep a Changelog and this project follows Semantic Versioning.
+
+## [2.0.0] - 2026-07-23
 
 ### Added
-- ApiDoc annotations for clean controller architecture.
+- Dedicated release for Spring Boot 3.x.
 - Automatic summary and description generation.
-- Complete executable Maven sample project using Spring Boot 3.4.0+.
-- Complete executable Gradle sample project using Spring Boot 3.4.0+ and Java 21 Toolchain.
-- Native i18n support (English, Portuguese, Italian, French, and Simplified Chinese).
-- Automatic HTTP 200/201/204 status detection.
-- Smart Security inference with Spring Security (`@PreAuthorize`, `Secured`, `RolesAllowed`).
+- Automatic HTTP status detection.
+- Smart Spring Security inference (`@PreAuthorize`, `@Secured`, `@RolesAllowed`).
 - Zero-Config JWT Authentication contract.
+- Sample projects for Maven and Gradle.
+- Native internationalization support:
+    - Arabic
+    - Chinese
+    - Dutch
+    - English
+    - French
+    - German
+    - Italian
+    - Japanese
+    - Korean
+    - Portuguese
+    - Russian
+    - Spanish
 
 ### Changed
-- Refactored library build configuration to use `maven.compiler.release` target 17 for broader compatibility while building with JDK 21.
+- Refactored build configuration to target Java 17.
+- Improved documentation generation.
+- Updated README and documentation.

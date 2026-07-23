@@ -26,4 +26,4 @@ out/
 Thumbs.db
 *.log
 
-test/
+/test/

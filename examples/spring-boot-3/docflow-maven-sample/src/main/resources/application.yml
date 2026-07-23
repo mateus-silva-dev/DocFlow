@@ -1,0 +1,14 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+
+docflow:
+  title: "DocFlow API Example - Maven"
+  description: "Practical demonstration of clean documentation with DocFlow"
+  version: "2.0.0"
+  default-error-schema: com.docflow.example.dto.StandardError
+  security:
+    enabled: true
+    scheme-name: "JWT Authentication"
